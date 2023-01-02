@@ -29,6 +29,7 @@ Kodun nasıl çalıştığını açıklamadan önce gerekli pakatlerden bahsetme
   Whiptail, çeşitli sorular sunmanıza veya mesajları görüntülemenize izin veren daha kullanıcı dostu bir arayüz tasarlamayı sağlayan bir programdır.<br />
   Whiptail'in sahip olduğu bileşenler şunlardır:
   <br />
+  <br />
   * message box
   * yes/no box
   * info box
