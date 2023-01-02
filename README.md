@@ -13,6 +13,7 @@ Eğer dosya ismi doğru girilmişse gpg paketi ile dosya simetrik olarak şifrel
 
 ## Kurulum&Çalıştırma
 <b>Dosyayı çalıştırmak için yapılması gerekenler</b>
+* ```git clone  ```
 * Terminal üzerinden scriptin bulunduğu dizine cd komutu ile git 
 * Aşağıdaki kodu yazarak programı çalıştır
 ```bash
