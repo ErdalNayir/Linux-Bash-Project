@@ -18,3 +18,7 @@ Eğer dosya ismi doğru girilmişse gpg paketi ile dosya simetrik olarak şifrel
 ```bash
 bash SuperSafeErdalNayir.sh
 ````
+<br />
+Böylece program çalışmaya başlayacaktır.
+
+## Detaylı Açıklama
