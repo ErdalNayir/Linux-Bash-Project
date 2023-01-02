@@ -1,0 +1,73 @@
+#!/bin/bash
+
+TEXTTOSHOW="Süper kasaya hoş geldiniz. Bu uygulamada dosyalarınızı ziplerinizi şifreleyebilir ve görünmez kasamızda saklayabilirsiniz. Dosyalarınız kimse tarafından erişilmez olur "
+
+whiptail --title "Süper Kasaya hoşgeldiniz" --msgbox "$TEXTTOSHOW" 10 80
+
+
+#Gorunmez kasa olusturma islemi
+
+NAMEOFSAFE=".TheSafestSafe"
+
+PASS=$(whiptail --title "Admin sifresi" --passwordbox "Lütfen sudo şifrenizi giriniz(Kasa erişimi için)" 10 80 3>&1 1>&2 2>&3)
+
+LENOFPASS=`expr length "$PASS"`
+
+if [ $LENOFPASS == 0 ]
+
+then
+
+   whiptail --title "İslem sonlandiriliyor" --msgbox "İşlemi iptal ettiğiniz ya da geçersiz uzunlukta şifre girdiğiniz için işleme devam edilemiyor.." 10 80
+
+elif [ $LENOFPASS -gt 0 ]
+
+then
+
+  if sudo true;
+  then
+
+      NUMBEROFSAFE=`ls -al | grep -c .TheSafestSafe`
+
+      if [ $NUMBEROFSAFE == 0 ]
+
+      then
+
+         whiptail --title "Kasa oluşturma" --msgbox "Görünüşe göre görünmez kasanız bulunmamaktadır. Sizin için sadece bir seferliğe mahsus kasanız oluşturulacaktır" 10 80
+
+         #Gorunmez kasa olusturma islemi
+         `mkdir $NAMEOFSAFE`
+
+         echo -e $PASS | sudo -k -S chmod 700 $NAMEOFSAFE
+
+         whiptail --title "İslem Başarili" --msgbox "Görünmez kasanız oluşturuldu" 10 40
+
+      f
+i
+fi
+
+isContinue=1
+
+while [ $isContinue == 1 ]
+do
+
+ CHOICE=$(whiptail --title "Ana Menü"  --menu "Lütfen yapmak istediğiniz işlemi seçiniz" 18 60 10 \
+ "Tiny" "A description for the tiny option." \
+ "Small" "A description for the small option." \
+ "Medium" "A description for the medium option." \
+ "Large" "A description for the large option." \
+ "Huge" "A description for the huge option." 3>&1 1>&2 2>&3)
+
+ if [ -z "$CHOICE" ]
+ then
+    break
+ else
+    echo "The user chose $CHOICE"
+ fi
+
+done
+
+
+#(cd .TheSafestSafe && pwd)
+
+
+
