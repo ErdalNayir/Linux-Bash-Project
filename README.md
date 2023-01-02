@@ -26,4 +26,4 @@ Böylece program çalışmaya başlayacaktır.
 Kodun nasıl çalıştığını açıklamadan önce gerekli pakatlerden bahsetmek lazım. Bu projede şifreleme için linuxta zaten var olan <b>gpg</b> paketeni kullandım. Görsel arayüz için ise <b>whiptail</b> paketini kullandım. 
 
 * ### Whiptail Nedir?
-Whiptail, çeşitli sorular sunmanıza veya mesajları görüntülemenize izin veren bir programdır.
+  Whiptail, çeşitli sorular sunmanıza veya mesajları görüntülemenize izin veren bir programdır.
