@@ -42,6 +42,7 @@ Kodun nasıl çalıştığını açıklamadan önce gerekli pakatlerden bahsetme
   * gauge box
 
 * ### GPG Nedir?
+  GPG <b>(GnuPG / GNU Privacy Guard) GPG (GnuPG / GNU Privacy Guard), GPL</b> lisansına sahip, açık kaynak kodlu bir hibrit-şifreleme yazılımıdır. Hibrit-şifreleme simetrik ve asimetrik şifreleme sistem algoritmalarının iyi yönlerinin bir birleşimi sağlayan bir yapıdır. Bu yapı sayesinde dosyalar, zipler güvenli bir şekilde şifrelenmektedir.
 
 
   
