@@ -22,7 +22,7 @@ bash SuperSafeErdalNayir.sh
 <br />
 Böylece program çalışmaya başlayacaktır.
 
-## Detaylı Açıklama
+## Gerekli Paketler ve Kodlar
 
 Kodun nasıl çalıştığını açıklamadan önce gerekli pakatlerden bahsetmek lazım. Bu projede şifreleme için linuxta zaten var olan <b>gpg</b> paketeni kullandım. Görsel arayüz için ise <b>whiptail</b> paketini kullandım. 
 
@@ -42,8 +42,18 @@ Kodun nasıl çalıştığını açıklamadan önce gerekli pakatlerden bahsetme
   * radiolist box
   * gauge box
 
+  <b> Aşağıdaki komut ile gerekli paket indirilebilir</b>
+  ```bash
+  sudo apt-get install whiptail
+  ```
+
 * ### GPG Nedir?
-  GPG <b>(GnuPG / GNU Privacy Guard) GPG (GnuPG / GNU Privacy Guard), GPL</b> lisansına sahip, açık kaynak kodlu bir hibrit-şifreleme yazılımıdır. Hibrit-şifreleme simetrik ve asimetrik şifreleme sistem algoritmalarının iyi yönlerinin bir birleşimi sağlayan bir yapıdır. Bu yapı sayesinde dosyalar, zipler güvenli bir şekilde şifrelenmektedir.
+  GPG <b>(GnuPG / GNU Privacy Guard) GPG (GnuPG / GNU Privacy Guard), GPL</b> lisansına sahip, açık kaynak kodlu bir hibrit-şifreleme yazılımıdır. Hibrit-şifreleme simetrik ve asimetrik şifreleme sistem algoritmalarının iyi yönlerinin bir birleşimi sağlayan bir yapıdır. Bu yapı sayesinde dosyalar, zipler güvenli bir şekilde şifrelenmektedir.<br /><br />
+  <b> Aşağıdaki komut ile gerekli paket indirilebilir</b>
+  ```bash
+  sudo apt-get install gpg
+  ```
+  
 
 
   
