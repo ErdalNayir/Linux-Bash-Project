@@ -13,7 +13,7 @@ Eğer dosya ismi doğru girilmişse gpg paketi ile dosya simetrik olarak şifrel
 <b>Dosyayı çalıştırmak için yapılması gerekenler</b>
 <br />
 * Terminal üzerinden kodun bulunduğu dizine git 
-*Aşağıdaki kodu yazarak programı çalıştır
+* Aşağıdaki kodu yazarak programı çalıştır
 
 ```bash
 bash SuperSafeErdalNayir.sh
