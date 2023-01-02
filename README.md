@@ -10,11 +10,11 @@ Bu kod parçası gerekli kasayı kendi çalışma dizininde oluşturmaktadır ay
 Eğer dosya ismi doğru girilmişse gpg paketi ile dosya simetrik olarak şifreleniyor ve aynı zamanda koyulan şifre kaldırılabiliniyor. Dosya şifrelenince şifrelenen dosya kasaya taşınmaktadır ve orjinal hali silinmektedir. Şifre kaldırılırken de bu işlemin tam tersi yapılmaktadır. 
 <br />
 <br />
+
+## Kurulum&Çalıştırma
 <b>Dosyayı çalıştırmak için yapılması gerekenler</b>
-<br />
 * Terminal üzerinden kodun bulunduğu dizine git 
 * Aşağıdaki kodu yazarak programı çalıştır
-
 ```bash
 bash SuperSafeErdalNayir.sh
 ````
