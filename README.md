@@ -54,6 +54,8 @@ Kodun nasıl çalıştığını açıklamadan önce gerekli pakatlerden bahsetme
   sudo apt-get install gpg
   ```
   
+## Detaylar
+  
 
 
   
