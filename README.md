@@ -13,7 +13,7 @@ Eğer dosya ismi doğru girilmişse gpg paketi ile dosya simetrik olarak şifrel
 
 ## Kurulum&Çalıştırma
 <b>Dosyayı çalıştırmak için yapılması gerekenler</b>
-* ```git clone https://github.com/ErdalNayir/Linux-Bash-Project.git ``` ile rbu repo local makineye kopyala
+* ```git clone https://github.com/ErdalNayir/Linux-Bash-Project.git ``` ile bu repo local makineye kopyala
 * Terminal üzerinden scriptin bulunduğu dizine cd komutu ile git 
 * Aşağıdaki kodu yazarak programı çalıştır
 ```bash
