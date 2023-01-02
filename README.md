@@ -22,3 +22,7 @@ bash SuperSafeErdalNayir.sh
 Böylece program çalışmaya başlayacaktır.
 
 ## Detaylı Açıklama
+
+Kodun nasıl çalıştığını açıklamadan önce gerekli pakatlerden bahsetmek lazım. Bu projede şifreleme için linuxta zaten var olan <b>gpg</b> paketeni kullandım. Görsel arayüz için ise <b>whiptail</b> paketini kullandım. 
+
+### Whiptail Nedir?
