@@ -59,5 +59,9 @@ Kodun nasıl çalıştığını açıklamadan önce gerekli pakatlerden bahsetme
  <img src="https://github.com/ErdalNayir/Linux-Bash-Project/blob/main/assets/Screenshot%20from%202023-01-02%2020-35-14.png" alt="starting screen" width="1100" height="600"/><br /><br />
 * <b>Burada "Ok" basıldıktan sonra kullanıcıdan sudo şifresi istenir</b>
 <img src="https://github.com/ErdalNayir/Linux-Bash-Project/blob/main/assets/Screenshot%20from%202023-01-02%2020-35-52.png" alt="starting screen" width="1100" height="600"/><br /><br />
+* <b>Daha önceden kasa oluşturulmadıysa ve sudo yanlış girildiyse program çalışmayı durdurur</b>
+<img src="https://github.com/ErdalNayir/Linux-Bash-Project/blob/main/assets/Screenshot%20from%202023-01-02%2020-36-03.png" alt="starting screen" width="1100" height="600"/><br /><br />
+* <b>Scriptin ulunduğu dizinde daha önce kasa oluşturulmadıysa bir seferliğe mahsus yeni kasa oluşturulur</b>
+<img src="https://github.com/ErdalNayir/Linux-Bash-Project/blob/main/assets/Screenshot%20from%202023-01-02%2020-36-15.png" alt="starting screen" width="1100" height="600"/><br /><br />
 
   
