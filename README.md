@@ -76,4 +76,9 @@ Kodun nasıl çalıştığını açıklamadan önce gerekli pakatlerden bahsetme
 * <b>Eğer menüdeyken Cancel ya da çıkış seçeneğine tıklanırsa uygulama sonlanır ve kasanın yetkisi 000 ile değiştirilir</b>
 <img src="https://github.com/ErdalNayir/Linux-Bash-Project/blob/main/assets/Screenshot%20from%202023-01-02%2020-37-04.png" alt="open menu" width="1100" height="600"/><br /><br />
 
-  
+## Notlar
+Bu kod yazılırken bazı çözümü olmayan durumlarla karşılaştım<br />
+* sudo bir kez doğru çalışınca, scripteyken sudo şifresini yanlış yazsanız bile program çalışacaktır. Bu büyük ihtimalle sudo şifresi bir kez doğru yazılınca terminal bu şifreyi saklıyor olabilir.
+* Aynı durum passphrase işlemi içinde geçerlidir. pashphrase doğru girilince aynı dosya üzerinde yine işlem yaparken şifre istemeden dosya kiliti açılabilmektedir.
+* Passphrase kısmını whiptail ile çalışma şekli olmadığından kendi arayüzünü kullandım
+
