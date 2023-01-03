@@ -55,6 +55,7 @@ Kodun nasıl çalıştığını açıklamadan önce gerekli pakatlerden bahsetme
   ```
   
 ## Detaylar
+* <b>Program çalışmaya başladığında kullanıcıyı aşağıdaki gibi bir giriş ekranı karşılar</b>
  <img src="https://github.com/ErdalNayir/Linux-Bash-Project/blob/main/assets/Screenshot%20from%202023-01-02%2020-35-14.png" alt="starting screen" width="1100" height="600"/>
 
 
