@@ -66,7 +66,8 @@ Kodun nasıl çalıştığını açıklamadan önce gerekli pakatlerden bahsetme
 * <b>Kasa başarılı bir şekilde oluşursa ya da kasa daha önceden oluşmuş ve şifre doğru girilmişse Menu ekranda belirir</b>
 <img src="https://github.com/ErdalNayir/Linux-Bash-Project/blob/main/assets/Screenshot%20from%202023-01-02%2020-36-19.png" alt="open menu" width="1100" height="600"/><br /><br />
 * <b>Menuden dosya şifrele işlemi seçildiğinde kullanıcıdan input alınır ve script ile aynı dizinde bulunan ve şifrelenmek istenen dosyanın ismi bu alana girilir</b>
-<img src="https://github.com/ErdalNayir/Linux-Bash-Project/blob/main/assets/Screenshot%20from%202023-01-02%2020-36-19.png" alt="open menu" width="1100" height="600"/><br /><br />
-
+<img src="https://github.com/ErdalNayir/Linux-Bash-Project/blob/main/assets/Screenshot%20from%202023-01-02%2020-36-21.png" alt="open menu" width="1100" height="600"/><br /><br />
+* <b>Dosya ismi doğru girilmiş ise gpg paketi kullanıcıdan dosyayı şifrelemek için passphrase ister (Passphrase unutulursa dosyanız hiçbir şekilde kurtarılamaz)</b>
+<img src="https://github.com/ErdalNayir/Linux-Bash-Project/blob/main/assets/Screenshot%20from%202023-01-02%2020-36-27.png" alt="open menu" width="1100" height="600"/><br /><br />
 
   
