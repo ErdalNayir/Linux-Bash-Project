@@ -72,6 +72,8 @@ Kodun nasıl çalıştığını açıklamadan önce gerekli pakatlerden bahsetme
 * <b>Dosya şifresi kaldırmak için ise Kasa içinde bulunan şifresi kaldırılacak dosyanın ismi yazılır</b>
 <img src="https://github.com/ErdalNayir/Linux-Bash-Project/blob/main/assets/Screenshot%20from%202023-01-02%2020-36-50.png" alt="open menu" width="1100" height="600"/><br /><br />
 * <b>Eğer dosya bulunursa tekrardan passphrase istenir ve istenilen şifre doğru girilirse şifre kaldırılır ve dosya scriptin bulunduğu dizine taşınır</b>
-<img src="https://github.com/ErdalNayir/Linux-Bash-Project/blob/main/assets/Screenshot%20from%202023-01-02%2020-36-50.png" alt="open menu" width="1100" height="600"/><br /><br />
+<img src="https://github.com/ErdalNayir/Linux-Bash-Project/blob/main/assets/Screenshot%20from%202023-01-02%2020-36-56.png" alt="open menu" width="1100" height="600"/><br /><br />
+* <b>Eğer menüdeyken Cancel ya da çıkış seçeneğine tıklanırsa uygulama sonlanır ve kasanın yetkisi 000 ile değiştirilir</b>
+<img src="https://github.com/ErdalNayir/Linux-Bash-Project/blob/main/assets/Screenshot%20from%202023-01-02%2020-37-04.png" alt="open menu" width="1100" height="600"/><br /><br />
 
   
