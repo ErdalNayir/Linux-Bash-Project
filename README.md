@@ -65,6 +65,8 @@ Kodun nasıl çalıştığını açıklamadan önce gerekli pakatlerden bahsetme
 <img src="https://github.com/ErdalNayir/Linux-Bash-Project/blob/main/assets/Screenshot%20from%202023-01-02%2020-36-15.png" alt="create safe one time only" width="1100" height="600"/><br /><br />
 * <b>Kasa başarılı bir şekilde oluşursa ya da kasa daha önceden oluşmuş ve şifre doğru girilmişse Menu ekranda belirir</b>
 <img src="https://github.com/ErdalNayir/Linux-Bash-Project/blob/main/assets/Screenshot%20from%202023-01-02%2020-36-19.png" alt="open menu" width="1100" height="600"/><br /><br />
+* <b>Menuden dosya şifrele işlemi seçildiğinde kullanıcıdan input alınır ve script ile aynı dizinde bulunan ve şifrelenmek istenen dosyanın ismi bu alana girilir</b>
+<img src="https://github.com/ErdalNayir/Linux-Bash-Project/blob/main/assets/Screenshot%20from%202023-01-02%2020-36-19.png" alt="open menu" width="1100" height="600"/><br /><br />
 
 
   
