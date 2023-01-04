@@ -82,5 +82,5 @@ Bu kod yazılırken bazı çözümü olmayan durumlarla karşılaştım<br />
 * Aynı durum passphrase işlemi içinde geçerlidir. pashphrase doğru girilince aynı dosya üzerinde yine işlem yaparken şifre istemeden dosya kiliti açılabilmektedir.
 * Passphrase kısmını whiptail ile çalışma şekli olmadığından kendi arayüzünü kullandım
 
-## [Video Url'si](https://youtu.be/ghL5_3M7f8Y)
+##### [Video Url'si](https://youtu.be/ghL5_3M7f8Y)
 
